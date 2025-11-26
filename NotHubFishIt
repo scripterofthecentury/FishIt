@@ -837,7 +837,7 @@ ConfigSection:Paragraph({
 })
 
 local ConfigManager = Window.ConfigManager
-local myConfig = ConfigManager:CreateConfig("ZiaanHubConfig")
+local myConfig = ConfigManager:CreateConfig("NotHubConfig")
 
 ConfigSection:Button({
     Title = "Save Settings",
@@ -917,18 +917,18 @@ local InfoSection = SettingsTab:Section({
 })
 
 InfoSection:Paragraph({
-	Title = "ZiaanHub - Fish It",
+	Title = "Not Hub - Fish It",
 	Content = "Advanced fishing automation script with comprehensive features"
 })
 
 InfoSection:Label({
-	Title = "Version",
-	Content = "1.6.45"
+	Title = "Fish It",
+	Content = "OP"
 })
 
 InfoSection:Label({
 	Title = "Developer",
-	Content = "@ziaandev"
+	Content = "@Notty"
 })
 
 InfoSection:Label({
@@ -937,7 +937,7 @@ InfoSection:Label({
 })
 
 WindUI:Notify({
-	Title = "ZiaanHub - Fish It",
+	Title = "Not Hub - Fish It",
 	Content = "Script loaded successfully! Enjoy your fishing experience.",
 	Duration = 5,
 	Icon = "circle-check"
