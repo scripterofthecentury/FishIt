@@ -161,10 +161,10 @@ end
 -------------------------------------------
 
 local Window = WindUI:CreateWindow({
-    Title = "ZiaanHub - Fish It",
+    Title = "Not Hub - Fish It",
     Icon = "fish",
-    Author = "by @ziaandev",
-    Folder = "ZiaanHub",
+    Author = "by @Notty",
+    Folder = "Not Hub",
     Size = UDim2.fromOffset(600, 450),
     Theme = "Indigo",
     KeySystem = false
@@ -175,7 +175,7 @@ Window:SetToggleKey(Enum.KeyCode.G)
 WindUI:SetNotificationLower(true)
 
 WindUI:Notify({
-	Title = "ZiaanHub - Fish It",
+	Title = "Not Hub - Fish It",
 	Content = "All Features Loaded Successfully!",
 	Duration = 5,
 	Image = "square-check-big"
